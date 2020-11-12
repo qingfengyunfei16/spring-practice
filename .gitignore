@@ -1,0 +1,318 @@
+# https://github.com/github/gitignore/blob/master/Java.gitignore
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+/.project
+
+
+# https://github.com/github/gitignore/blob/master/Maven.gitignore
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+
+# zeroturnaround
+rebel.xml
+
+
+# log
+log/
+logs/
+
+
+# IntelliJ IDEA
+*.iml
+.idea/
+[root@ceshi MicroCourse-server]# vim .gitignore 
+[root@ceshi MicroCourse-server]# timed out waiting for input: auto-logout
+Connection closing...Socket close.
+
+Connection closed by foreign host.
+
+Disconnected from remote host(新建会话 (2)) at 22:20:13.
+
+Type `help' to learn how to use Xshell prompt.
+[C:\~]$ 
+
+Connecting to 112.35.8.187:13005...
+Connection established.
+To escape to local shell, press 'Ctrl+Alt+]'.
+
+Last login: Tue Sep 11 22:13:10 2018 from 183.198.28.159
+Authorized users only. All activity may be monitored and reported
+[root@ceshi ~]# cd /home/soft/mirror 
+1532.sql                 .bash_logout             .cshrc                   fileName.sql             jdk-8u111-linux-x64.rpm  .mysql_history           .oracle_jre_usage/       .rnd                     .tcshrc                  .viminfo
+1.txt                    .bash_profile            d:dycibase4J.sql         ibase4j_180905.sql       .m2/                     openssh-7.6p1/           .pki/                    root@36.155.127.115      test.dump                
+.bash_history            .bashrc                  dhparams.pem             ibase4jSql/              myData.sql               openssh-7.6p1.tar.gz     .rediscli_history        .ssh/                    test.sql                 
+[root@ceshi ~]# cd /home/wzz/
+apache-activemq-5.14.5/ ibase4j.dump            livestream.sql          MicroCourse-server/     tarFile/                tomcat0312/             tomcat1/                tomcat2/                web-pro/                zookeeper-3.3.6/        
+[root@ceshi ~]# cd /home/wzz/MicroCourse-server/
+[root@ceshi MicroCourse-server]# ls
+iBase4J-Biz-Facade   iBase4J-Biz-Web  iBase4J-SYS-Facade   iBase4J-SYS-Web  img      pom-biz-service-server.xml  pom-sys-service-server.xml  pom.xml    replay_pid16936.log  sqls     web.sh
+iBase4J-Biz-Service  iBase4J-Common   iBase4J-SYS-Service  iBase4J-UI       LICENSE  pom-biz-web-server.xml      pom-sys-web-server.xml      readme.md  server.sh            toolKit
+[root@ceshi MicroCourse-server]# vim .gitignore 
+
+# https://github.com/github/gitignore/blob/master/Java.gitignore
+
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+/.project
+
+
+# https://github.com/github/gitignore/blob/master/Maven.gitignore
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+
+.metadata
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+.recommenders
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# PyDev specific (Python IDE for Eclipse)
+*.pydevproject
+
+# CDT-specific (C/C++ Development Tooling)
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific (PHP Development Tools)
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# Tern plugin
+.tern-project
+
+# TeXlipse plugin
+.texlipse
+
+# STS (Spring Tool Suite)
+.springBeans
+
+# Code Recommenders
+.recommenders/
+
+
+# https://github.com/github/gitignore/blob/master/Global/JetBrains.gitignore
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+# Gradle:
+.idea/gradle.xml
+.idea/libraries
+
+# Mongo Explorer plugin:
+.idea/mongoSettings.xml
+
+## File-based project format:
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+
+# zeroturnaround
+rebel.xml
+
+
+# log
+log/
+logs/
+
+
+# IntelliJ IDEA
+*.iml
+.idea/
+
